@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hdt10" />
+        <module name="HDT10" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hdt10" target="20" />
-    </bytecodeTargetLevel>
   </component>
 </project>
