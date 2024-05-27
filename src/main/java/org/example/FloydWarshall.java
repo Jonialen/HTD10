@@ -1,6 +1,6 @@
 package org.example;
 
-class FloydWarshall {
+public class FloydWarshall {
     public static void floydWarshall(Graph graph) {
         int numVertices = graph.getVertices().size();
         int[][] dist = new int[numVertices][numVertices];
@@ -11,7 +11,11 @@ class FloydWarshall {
 
         for (int i = 0; i < numVertices; i++) {
             for (int j = 0; j < numVertices; j++) {
-                dist[i][j] = adjMatrix[i][j];
+                if (i == j) {
+                    dist[i][j] = 0;
+                } else {
+                    dist[i][j] = adjMatrix[i][j];
+                }
                 next[i][j] = j;
             }
         }
@@ -43,7 +47,7 @@ class FloydWarshall {
 
         // Calcular el centro del grafo
         int[] eccentricity = new int[numVertices];
-        int maxEccentricity = 0;
+        int minEccentricity = Integer.MAX_VALUE;
         int centerVertex = -1;
 
         for (int i = 0; i < numVertices; i++) {
@@ -54,8 +58,8 @@ class FloydWarshall {
                 }
             }
             eccentricity[i] = maxDist;
-            if (maxDist > maxEccentricity) {
-                maxEccentricity = maxDist;
+            if (maxDist < minEccentricity) {
+                minEccentricity = maxDist;
                 centerVertex = i;
             }
         }

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f86efea7-f0a2-4f1d-84fa-8720b2895d0e" name="Changes" comment="" />
+    <list default="true" id="f86efea7-f0a2-4f1d-84fa-8720b2895d0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FloydWarshall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FloydWarshall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/FloydWarshall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/FloydWarshall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +26,24 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jonialen"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jonialen/HTD10.git",
+    "accountId": "8c79261a-ce93-4aea-ad33-9fcbe413705a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2h1uehoeECriVSRKA3jP6f51xpW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,14 +51,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FloydWarshallTest.executor": "Run",
+    "JUnit.FloydWarshallTest.testFloydWarshall.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documentos/UVG/Año 2/Ciclo 1/Estructura/HTD10",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Documentos/UVG/Año 2/Ciclo 1/Estructura/HDT10/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FloydWarshallTest.testFloydWarshall">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="HDT10" />
@@ -48,8 +77,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FloydWarshallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FloydWarshallTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FloydWarshallTest.testFloydWarshall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FloydWarshallTest" />
+      <option name="METHOD_NAME" value="testFloydWarshall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FloydWarshallTest.testFloydWarshall" />
+        <item itemvalue="JUnit.FloydWarshallTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,6 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716774003954</updated>
       <workItem from="1716774005268" duration="94000" />
+      <workItem from="1716775038758" duration="75000" />
     </task>
     <servers />
   </component>
