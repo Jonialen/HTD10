@@ -9,5 +9,8 @@
         <module name="hdt10" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hdt10" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
